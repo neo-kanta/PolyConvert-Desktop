@@ -1,0 +1,17 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.0.2, pluggy-1.6.0 -- C:\Python314\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\kanta\source\repos\PolyConvert-Desktop
+configfile: pyproject.toml
+collecting ... collected 8 items
+
+tests/e2e/test_cli_convert.py::test_cli_convert_basic PASSED             [ 12%]
+tests/e2e/test_cli_convert.py::test_cli_convert_chunking PASSED          [ 25%]
+tests/unit/test_docx_reader.py::test_docx_reader_basic PASSED            [ 37%]
+tests/unit/test_docx_reader.py::test_docx_reader_with_headers_footers PASSED [ 50%]
+tests/unit/test_engine.py::test_plugin_registry PASSED                   [ 62%]
+tests/unit/test_engine.py::test_engine_unsupported_extensions PASSED     [ 75%]
+tests/unit/test_txt_writer.py::test_txt_writer_basic PASSED              [ 87%]
+tests/unit/test_txt_writer.py::test_txt_writer_chunking PASSED           [100%]
+
+============================== 8 passed in 0.57s ==============================

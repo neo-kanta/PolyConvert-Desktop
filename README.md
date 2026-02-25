@@ -1,16 +1,16 @@
 # Universal File Converter
 
 A production-grade, extensible desktop application for converting files. 
-Currently supports **DOCX to TXT** conversion, with a scalable plugin architecture for future formats.
+Currently supports **DOCX** and **PDF** to **TXT** conversion, with a scalable plugin architecture for future formats.
 
 ## Features
 - **Responsive GUI**: Built with standard `tkinter` (`ttk`), scales gracefully.
 - **Multilingual**: Supports standard fallback mechanism (en-US, zh-TW).
-- **Format Conversion**: Convert `.docx` containing paragraphs, tables, headers, and footers.
+- **Format Conversion**: Convert `.docx` and `.pdf` files containing paragraphs, tables, headers, and footers.
 - **Table Handling**: Normalizes irregular tables, supports TSV or Pipe formats.
 - **Output Chunking**: Split long output into smaller parts for web uploads.
 - **Headless CLI**: Automate conversions via command line.
-- **Scalable Architecture**: Everything is a plugin. Add PDF, Markdown, or Excel support without touching the core engine.
+- **Scalable Architecture**: Everything is a plugin. Add Markdown, Excel, or other format support without touching the core engine.
 
 ## Installation for Development
 

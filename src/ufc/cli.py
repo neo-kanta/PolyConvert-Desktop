@@ -19,6 +19,7 @@ def convert_cmd(args: argparse.Namespace) -> None:
         "include_headers": args.include_headers,
         "include_footers": args.include_footers,
         "keep_empty_paragraphs": args.keep_empty,
+        "include_tables": args.include_tables,
     }
     write_opts = {
         "include_tables": args.include_tables,

@@ -9,6 +9,7 @@ description = "Universal File Converter Desktop App"
 authors = [{name = "Antigravity", email = "author@example.com"}]
 dependencies = [
     "python-docx",
+    "pdfplumber",
 ]
 requires-python = ">=3.9"
 

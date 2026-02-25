@@ -393,6 +393,7 @@ class MainWindow:
             "include_headers": self.include_headers.get(),
             "include_footers": self.include_footers.get(),
             "keep_empty_paragraphs": self.keep_empty.get(),
+            "include_tables": self.include_tables.get(),
         }
         write_opts = {
             "include_tables": self.include_tables.get(),
